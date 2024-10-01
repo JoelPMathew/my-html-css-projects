@@ -1,0 +1,78 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image:url(4k-keyboard.jpg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1b1b32cc;
+    color:#a59ce1;
+    border-radius: 8px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#483aa8;
+    font-family:sans-serif;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color:#483aa8;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #a59ce1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+
